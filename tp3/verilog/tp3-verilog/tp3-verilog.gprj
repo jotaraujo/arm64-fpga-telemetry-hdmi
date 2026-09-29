@@ -1,0 +1,17 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NSR-4C" pn="GW1NSR-LV4CQN48PC6/I5">gw1nsr4c-000</Device>
+    <FileList>
+        <File path="src/blink_gen.v" type="file.verilog" enable="1"/>
+        <File path="src/debounce.v" type="file.verilog" enable="1"/>
+        <File path="src/fsm_control.v" type="file.verilog" enable="1"/>
+        <File path="src/por_reset.v" type="file.verilog" enable="1"/>
+        <File path="src/sync2ff.v" type="file.verilog" enable="1"/>
+        <File path="src/tb_fsm_control.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/pins.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

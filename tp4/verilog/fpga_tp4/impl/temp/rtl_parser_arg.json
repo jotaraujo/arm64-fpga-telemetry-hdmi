@@ -1,0 +1,53 @@
+{
+ "Device" : "GW1NSR-4C",
+ "Files" : [
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp4/fpga_tp4/src/coeff_rom.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp4/fpga_tp4/src/debounce.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp4/fpga_tp4/src/mac_control.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp4/fpga_tp4/src/mac_unit.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp4/fpga_tp4/src/por_reset.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp4/fpga_tp4/src/sample_rom.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp4/fpga_tp4/src/sync2ff.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp4/fpga_tp4/src/tb_mac_unit.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp4/fpga_tp4/src/tb_top_mac.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp4/fpga_tp4/src/top_mac.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp4/fpga_tp4/impl/temp/rtl_parser.result",
+ "Top" : "top_mac",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

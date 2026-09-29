@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NSR-4C" package="QFN48P" speed="6" partNumber="GW1NSR-LV4CQN48PC6/I5"/>
+    <FileList>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\button_commands.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\command_executor.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\debounce_pulse.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\gowin_clkdiv\gowin_clkdiv.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\gowin_pllvr\gowin_pllvr.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\hdmi\svo_defines.vh" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\hdmi\svo_enc.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\hdmi\svo_openldi.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\hdmi\svo_tcard.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\hdmi\svo_term.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\hdmi\svo_tmds.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\hdmi\svo_utils.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\hdmi\svo_vdma.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\led_status.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\mac_unit.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\pattern_stream.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\reset_sync.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\svo_hdmi.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\svo_hdmi_final.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\sync2ff.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\telemetry_bram.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\top.v" type="verilog"/>
+        <File path="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\src\top_final.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\final_project\fpga\gowin\impl\gwsynthesis\final_project.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="top_final"/>
+        <Option type="vcc" value="1.2"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

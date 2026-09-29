@@ -1,0 +1,41 @@
+{
+ "Device" : "GW1NSR-4C",
+ "Files" : [
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/blink_gen.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/debounce.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/fsm_control.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/por_reset.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/sync2ff.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/tb_fsm_control.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

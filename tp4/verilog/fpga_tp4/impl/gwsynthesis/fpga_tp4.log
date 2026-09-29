@@ -1,0 +1,44 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\coeff_rom.v'
+Analyzing Verilog file 'D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\debounce.v'
+Analyzing Verilog file 'D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\mac_control.v'
+Analyzing Verilog file 'D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\mac_unit.v'
+Analyzing Verilog file 'D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\por_reset.v'
+Analyzing Verilog file 'D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\sample_rom.v'
+Analyzing Verilog file 'D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\sync2ff.v'
+Analyzing Verilog file 'D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\tb_mac_unit.v'
+Analyzing Verilog file 'D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\tb_top_mac.v'
+Analyzing Verilog file 'D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\top_mac.v'
+Compiling module 'top_mac'("D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\top_mac.v":1)
+Compiling module 'por_reset'("D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\por_reset.v":1)
+Compiling module 'sync2ff'("D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\sync2ff.v":1)
+Compiling module 'debounce'("D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\debounce.v":1)
+WARN  (EX3791) : Expression size 21 truncated to fit in target size 20("D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\debounce.v":19)
+Compiling module 'mac_control'("D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\mac_control.v":1)
+Compiling module 'coeff_rom'("D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\coeff_rom.v":1)
+Extracting RAM for identifier 'mem'("D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\coeff_rom.v":7)
+Compiling module 'sample_rom'("D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\sample_rom.v":1)
+Extracting RAM for identifier 'mem'("D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\sample_rom.v":7)
+Compiling module 'mac_unit'("D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\mac_unit.v":1)
+NOTE  (EX0101) : Current top module is "top_mac"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "sample_rom" instantiated to "u_sample" is swept in optimizing("D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\src\top_mac.v":30)
+[95%] Generate netlist file "D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\impl\gwsynthesis\fpga_tp4.vg" completed
+[100%] Generate report file "D:\estudos\infnet\bloco8\pb\vga-framebuffer-arm-fpga\tp4\fpga_tp4\impl\gwsynthesis\fpga_tp4_syn.rpt.html" completed
+GowinSynthesis finish

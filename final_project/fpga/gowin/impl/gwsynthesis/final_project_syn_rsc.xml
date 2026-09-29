@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top_final" Register="20" Lut="39" T_Register="702(20)" T_Alu="129(0)" T_Lut="1063(39)" T_MULTADDALU18X18="1(0)" T_Bsram="1(0)">
+ <SubModule name="pll"/>
+ <SubModule name="divider"/>
+ <SubModule name="reset_release" Register="4" Lut="1" T_Register="4(4)" T_Lut="1(1)"/>
+ <SubModule name="key1_synchronizer" Register="2" T_Register="2(2)"/>
+ <SubModule name="key2_synchronizer" Register="2" T_Register="2(2)"/>
+ <SubModule name="key1_debounce" Register="21" Lut="39" T_Register="21(21)" T_Lut="39(39)"/>
+ <SubModule name="key2_debounce" Register="21" Lut="38" T_Register="21(21)" T_Lut="38(38)"/>
+ <SubModule name="local_commands" Register="19" Lut="24" T_Register="19(19)" T_Lut="24(24)"/>
+ <SubModule name="executor" Register="8" Lut="6" T_Register="8(8)" T_Lut="6(6)"/>
+ <SubModule name="mac" Register="47" Lut="54" MULTADDALU18X18="1" T_Register="47(47)" T_Lut="54(54)" T_MULTADDALU18X18="1(1)"/>
+ <SubModule name="telemetry" Bsram="1" T_Bsram="1(1)"/>
+ <SubModule name="status_indicator" Register="28" Lut="92" T_Register="28(28)" T_Lut="92(92)"/>
+ <SubModule name="video" Register="4" Lut="1" T_Register="530(4)" T_Alu="129(0)" T_Lut="770(1)">
+  <SubModule name="pattern_source" Register="19" Alu="18" Lut="175" T_Register="19(19)" T_Alu="18(18)" T_Lut="175(175)"/>
+  <SubModule name="encoder" Register="393" Alu="6" Lut="291" T_Register="393(393)" T_Alu="6(6)" T_Lut="291(291)"/>
+  <SubModule name="tmds_channel_0" Register="38" Alu="35" Lut="103" T_Register="38(38)" T_Alu="35(35)" T_Lut="103(103)"/>
+  <SubModule name="tmds_channel_1" Register="38" Alu="35" Lut="100" T_Register="38(38)" T_Alu="35(35)" T_Lut="100(100)"/>
+  <SubModule name="tmds_channel_2" Register="38" Alu="35" Lut="100" T_Register="38(38)" T_Alu="35(35)" T_Lut="100(100)"/>
+ </SubModule>
+</Module>

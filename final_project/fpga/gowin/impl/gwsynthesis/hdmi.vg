@@ -1,0 +1,47 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.11.03 Education"
+//Sun Sep 27 16:40:20 2026
+
+//Source file index table:
+//file0 "\D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/gowin_clkdiv/gowin_clkdiv.v"
+//file1 "\D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/gowin_pllvr/gowin_pllvr.v"
+//file2 "\D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_defines.vh"
+//file3 "\D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_enc.v"
+//file4 "\D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_openldi.v"
+//file5 "\D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_tcard.v"
+//file6 "\D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_term.v"
+//file7 "\D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_tmds.v"
+//file8 "\D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v"
+//file9 "\D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_vdma.v"
+//file10 "\D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/svo_hdmi.v"
+//file11 "\D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top.v"
+//file12 "\D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/onboard_led_bringup.v"
+`pragma protect begin_protected
+`pragma protect version="2.3"
+`pragma protect author="default"
+`pragma protect author_info="default"
+`pragma protect encrypt_agent="GOWIN"
+`pragma protect encrypt_agent_info="GOWIN Encrypt Version 2.3"
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=256)
+`pragma protect key_keyowner="GOWIN",key_keyname="GWK2023-09",key_method="rsa"
+`pragma protect key_block
+eK4Av1tRZaq53pKcLXxT3y8vzXVhaXtwEjRAx15rNKeLS7s2p8bTb8zRrL3Lm/keRhz9CTphF2Br
+4YhyH1J8dZrdrTaRGwV0wMuz11aKUF0KJBKTECYkExalvt/5hcS1fcymlKIFWlCg4Jborx7vpv61
+wgQbIo0J+6F1ddP6B1jPK2g7ZXFh6euIFjbwMvcRu2mtMdtMiVj5KC3epcwHmRnaKWnddewq3a95
+OzsPVVwG3dSNXROGM+S458WONEv+UrLo4W0mEWC3H5Nffk8V5s/9smaqX+LQ1MoRBtdPiNHJpPPe
+FQf0cjWPwIX7anSK+KdP3DsR621FhQ6lZsZG9g==
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=304)
+`pragma protect data_keyowner="default-ip-vendor"
+`pragma protect data_keyname="default-ip-key"
+`pragma protect data_method="aes128-cfb"
+`pragma protect data_block
+bxsjkp2ocwB71N4x0lAhf+bXzI28t+JJyzGS+Ongoj2/itbebYMU5/k81ytFlPwaUTQz9vJ8wc1t
+mbvBMARjEcxyxT9QXAnNqtACPwpNFaW8uracoEavFCP+/J0bZYQLJE68aiPY2btVOeZmyVYKHeqF
+MLsab35XsfdvQ+WywaYFHhT5OlpysV/+Jx5nosIuZAnFwNrpUX7IkM9sYMham455oWNx4D5+yeht
++d+9rtj4mjUl58q1JpfbdHOgBJ4kjuW8hfRhP4/FFEuxAp26vIqMcAp+6n0J+fNxsxRS6d4llKSi
+cNWQOCZCEL77kqXH5IusRZa/a8sx9klk8O/Ug5HfKBOC7afsWrld2ywhmCLcG6v3GlRFyrAWxEzf
+2AQ5e7eljwAKUsg4LpTUnzbFCg==
+`pragma protect end_protected

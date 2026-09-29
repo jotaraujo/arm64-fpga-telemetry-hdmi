@@ -1,0 +1,446 @@
+$date
+	Tue Aug 04 20:56:48 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_fsm_control $end
+$var wire 2 ! led_result [1:0] $end
+$var wire 1 " error_latch $end
+$var wire 1 # error_flag $end
+$var wire 1 $ busy $end
+$var reg 1 % clk $end
+$var reg 2 & cmd_data_sync [1:0] $end
+$var reg 1 ' cmd_trigger_sync $end
+$var reg 1 ( rst_n $end
+$scope module dut $end
+$var wire 1 % clk $end
+$var wire 2 ) cmd_data_sync [1:0] $end
+$var wire 1 ' cmd_trigger_sync $end
+$var wire 1 " error_latch $end
+$var wire 2 * led_result [1:0] $end
+$var wire 1 ( rst_n $end
+$var wire 1 # error_flag $end
+$var wire 1 $ busy $end
+$var parameter 32 + STABLE_CYCLES $end
+$var parameter 3 , S_ERROR $end
+$var parameter 3 - S_EXECUTE $end
+$var parameter 3 . S_IDLE $end
+$var parameter 3 / S_SYNC_CAPTURE $end
+$var parameter 3 0 S_VALIDATE $end
+$var parameter 3 1 S_WAIT_RELEASE $end
+$var reg 2 2 cmd_reg [1:0] $end
+$var reg 1 3 error_latch_reg $end
+$var reg 2 4 led_result_reg [1:0] $end
+$var reg 3 5 next_state [2:0] $end
+$var reg 4 6 stable_cnt [3:0] $end
+$var reg 3 7 state [2:0] $end
+$upscope $end
+$scope task send_command $end
+$var reg 2 8 cmd [1:0] $end
+$var integer 32 9 hold_cycles [31:0] $end
+$var integer 32 : i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b101 1
+b10 0
+b1 /
+b0 .
+b11 -
+b100 ,
+b11 +
+$end
+#0
+$dumpvars
+bx :
+bx 9
+bx 8
+b0 7
+b0 6
+b0 5
+b0 4
+03
+b0 2
+b0 *
+b0 )
+0(
+0'
+b0 &
+0%
+0$
+0#
+0"
+b0 !
+$end
+#10000
+1%
+#20000
+0%
+#30000
+1%
+#40000
+0%
+#50000
+1%
+#60000
+0%
+#70000
+b1 5
+b0 :
+1'
+b1 &
+b1 )
+b101 9
+b1 8
+1(
+1%
+#80000
+0%
+#90000
+1$
+b1 7
+b1 :
+1%
+#100000
+0%
+#110000
+b1 6
+b1 2
+b10 :
+1%
+#120000
+0%
+#130000
+b10 5
+b10 6
+b11 :
+1%
+#140000
+0%
+#150000
+b11 5
+b10 7
+b11 6
+b100 :
+1%
+#160000
+0%
+#170000
+b0 6
+b11 7
+b101 5
+b0 &
+b0 )
+0'
+b101 :
+1%
+#180000
+0%
+#190000
+b0 5
+b101 7
+b1 !
+b1 *
+b1 4
+1%
+#200000
+0%
+#210000
+0$
+b0 7
+1%
+#215000
+b1 5
+b0 :
+1'
+b10 &
+b10 )
+b10 8
+#220000
+0%
+#230000
+1$
+b1 7
+b1 :
+1%
+#240000
+0%
+#250000
+b10 2
+b1 6
+b10 :
+1%
+#260000
+0%
+#270000
+b10 5
+b10 6
+b11 :
+1%
+#280000
+0%
+#290000
+b11 5
+b11 6
+b10 7
+b100 :
+1%
+#300000
+0%
+#310000
+b11 7
+b0 6
+b101 5
+b0 &
+b0 )
+0'
+b101 :
+1%
+#320000
+0%
+#330000
+b0 5
+b10 !
+b10 *
+b10 4
+b101 7
+1%
+#340000
+0%
+#350000
+0$
+b0 7
+1%
+#355000
+b1 5
+b0 :
+1'
+b0 8
+#360000
+0%
+#370000
+1$
+b1 7
+b1 :
+1%
+#380000
+0%
+#390000
+b1 6
+b0 2
+b10 :
+1%
+#400000
+0%
+#410000
+b10 5
+b10 6
+b11 :
+1%
+#420000
+0%
+#430000
+b11 5
+b10 7
+b11 6
+b100 :
+1%
+#440000
+0%
+#450000
+b0 6
+b11 7
+b101 5
+0'
+b101 :
+1%
+#460000
+0%
+#470000
+b0 5
+b101 7
+b0 !
+b0 *
+b0 4
+1%
+#480000
+0%
+#490000
+0$
+b0 7
+1%
+#495000
+b1 5
+b0 :
+1'
+b11 &
+b11 )
+b11 8
+#500000
+0%
+#510000
+1$
+b1 7
+b1 :
+1%
+#520000
+0%
+#530000
+b11 2
+b1 6
+b10 :
+1%
+#540000
+0%
+#550000
+b10 5
+b10 6
+b11 :
+1%
+#560000
+0%
+#570000
+b100 5
+b11 6
+b10 7
+b100 :
+1%
+#580000
+0%
+#590000
+1#
+b100 7
+b0 6
+b101 5
+b0 &
+b0 )
+0'
+b101 :
+1%
+#600000
+0%
+#610000
+b0 5
+1"
+13
+0#
+b101 7
+1%
+#620000
+0%
+#630000
+0$
+b0 7
+1%
+#635000
+b1 5
+1'
+b1 &
+b1 )
+#640000
+0%
+#650000
+1$
+b1 7
+b0 5
+b0 &
+b0 )
+0'
+1%
+#660000
+0%
+#670000
+0$
+b0 7
+b1 6
+b0 2
+1%
+#680000
+0%
+#690000
+b0 6
+1%
+#700000
+0%
+#710000
+b1 5
+b0 :
+1'
+b1 &
+b1 )
+b1 8
+1%
+#720000
+0%
+#730000
+1$
+b1 7
+b1 :
+1%
+#740000
+0%
+#750000
+b1 6
+b1 2
+b10 :
+1%
+#760000
+0%
+#770000
+b10 5
+b10 6
+b11 :
+1%
+#780000
+0%
+#790000
+b11 5
+b10 7
+b11 6
+b100 :
+1%
+#800000
+0%
+#810000
+b0 6
+b11 7
+b101 5
+b0 &
+b0 )
+0'
+b101 :
+1%
+#820000
+0%
+#830000
+b0 5
+b101 7
+b1 !
+b1 *
+b1 4
+0"
+03
+1%
+#840000
+0%
+#850000
+0$
+b0 7
+1%
+#860000
+0%
+#870000
+1%
+#880000
+0%
+#890000
+1%
+#900000
+0%
+#905000

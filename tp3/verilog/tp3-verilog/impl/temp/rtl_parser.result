@@ -1,0 +1,68 @@
+[
+ {
+  "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/top.v",
+    "InstLine" : 9,
+    "InstName" : "u_por",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/por_reset.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "por_reset"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/top.v",
+    "InstLine" : 16,
+    "InstName" : "s1",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/sync2ff.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "sync2ff"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/top.v",
+    "InstLine" : 17,
+    "InstName" : "s2",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/sync2ff.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "sync2ff"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/top.v",
+    "InstLine" : 19,
+    "InstName" : "db1",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/debounce.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "debounce"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/top.v",
+    "InstLine" : 20,
+    "InstName" : "db2",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/debounce.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "debounce"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/top.v",
+    "InstLine" : 30,
+    "InstName" : "u_fsm",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/fsm_control.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "fsm_control"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/top.v",
+    "InstLine" : 38,
+    "InstName" : "u_blink",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/tp3/verilog/tp3-verilog/src/blink_gen.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "blink_gen"
+   }
+  ]
+ }
+]

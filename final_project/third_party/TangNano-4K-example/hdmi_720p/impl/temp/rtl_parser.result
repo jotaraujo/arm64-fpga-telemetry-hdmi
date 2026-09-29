@@ -1,0 +1,210 @@
+[
+ {
+  "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_openldi.v",
+  "InstLine" : 23,
+  "InstName" : "svo_openldi",
+  "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_openldi.v",
+  "ModuleLine" : 23,
+  "ModuleName" : "svo_openldi"
+ },
+ {
+  "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_term.v",
+  "InstLine" : 23,
+  "InstName" : "svo_term",
+  "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_term.v",
+  "ModuleLine" : 23,
+  "ModuleName" : "svo_term"
+ },
+ {
+  "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+  "InstLine" : 178,
+  "InstName" : "svo_dim",
+  "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+  "ModuleLine" : 178,
+  "ModuleName" : "svo_dim",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+    "InstLine" : 219,
+    "InstName" : "svo_axis_pipe",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+    "ModuleLine" : 31,
+    "ModuleName" : "svo_axis_pipe"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+  "InstLine" : 250,
+  "InstName" : "svo_overlay",
+  "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+  "ModuleLine" : 250,
+  "ModuleName" : "svo_overlay",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+    "InstLine" : 307,
+    "InstName" : "svo_buf_in",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+    "ModuleLine" : 101,
+    "ModuleName" : "svo_buf",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+      "InstLine" : 145,
+      "InstName" : "svo_axis_pipe",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+      "ModuleLine" : 31,
+      "ModuleName" : "svo_axis_pipe"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+    "InstLine" : 321,
+    "InstName" : "svo_buf_over",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+    "ModuleLine" : 101,
+    "ModuleName" : "svo_buf",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+      "InstLine" : 145,
+      "InstName" : "svo_axis_pipe",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+      "ModuleLine" : 31,
+      "ModuleName" : "svo_axis_pipe"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+    "InstLine" : 335,
+    "InstName" : "svo_buf_out",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+    "ModuleLine" : 101,
+    "ModuleName" : "svo_buf",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+      "InstLine" : 145,
+      "InstName" : "svo_axis_pipe",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+      "ModuleLine" : 31,
+      "ModuleName" : "svo_axis_pipe"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+  "InstLine" : 359,
+  "InstName" : "svo_rect",
+  "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+  "ModuleLine" : 359,
+  "ModuleName" : "svo_rect"
+ },
+ {
+  "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_vdma.v",
+  "InstLine" : 23,
+  "InstName" : "svo_vdma",
+  "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_vdma.v",
+  "ModuleLine" : 23,
+  "ModuleName" : "svo_vdma",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_vdma.v",
+    "InstLine" : 255,
+    "InstName" : "fifo",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_vdma.v",
+    "ModuleLine" : 344,
+    "ModuleName" : "svo_vdma_crossclock_fifo"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/top.v",
+    "InstLine" : 11,
+    "InstName" : "u_div_5",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/top.v",
+    "InstLine" : 17,
+    "InstName" : "Gowin_PLLVR_inst",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/gowin_pllvr/gowin_pllvr.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_PLLVR"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/top.v",
+    "InstLine" : 23,
+    "InstName" : "u_Reset_Sync",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/top.v",
+    "ModuleLine" : 47,
+    "ModuleName" : "Reset_Sync"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/top.v",
+    "InstLine" : 29,
+    "InstName" : "svo_hdmi_inst",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/svo_hdmi.v",
+    "ModuleLine" : 23,
+    "ModuleName" : "svo_hdmi",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/svo_hdmi.v",
+      "InstLine" : 75,
+      "InstName" : "svo_tcard",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_tcard.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_tcard"
+     },
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/svo_hdmi.v",
+      "InstLine" : 85,
+      "InstName" : "svo_enc",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_enc.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_enc"
+     },
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/svo_hdmi.v",
+      "InstLine" : 102,
+      "InstName" : "svo_tmds_0",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_tmds.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_tmds"
+     },
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/svo_hdmi.v",
+      "InstLine" : 112,
+      "InstName" : "svo_tmds_1",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_tmds.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_tmds"
+     },
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/svo_hdmi.v",
+      "InstLine" : 122,
+      "InstName" : "svo_tmds_2",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_tmds.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_tmds"
+     }
+    ]
+   }
+  ]
+ }
+]

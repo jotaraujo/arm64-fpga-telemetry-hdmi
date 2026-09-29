@@ -1,0 +1,34 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NSR-4C" pn="GW1NSR-LV4CQN48PC6/I5">gw1nsr4c-000</Device>
+    <FileList>
+        <File path="src/button_commands.v" type="file.verilog" enable="1"/>
+        <File path="src/command_executor.v" type="file.verilog" enable="1"/>
+        <File path="src/debounce_pulse.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_clkdiv/gowin_clkdiv.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pllvr/gowin_pllvr.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_defines.vh" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_enc.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_openldi.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_tcard.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_term.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_tmds.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_utils.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_vdma.v" type="file.verilog" enable="1"/>
+        <File path="src/led_status.v" type="file.verilog" enable="1"/>
+        <File path="src/mac_unit.v" type="file.verilog" enable="1"/>
+        <File path="src/pattern_stream.v" type="file.verilog" enable="1"/>
+        <File path="src/reset_sync.v" type="file.verilog" enable="1"/>
+        <File path="src/svo_hdmi.v" type="file.verilog" enable="1"/>
+        <File path="src/svo_hdmi_final.v" type="file.verilog" enable="1"/>
+        <File path="src/sync2ff.v" type="file.verilog" enable="1"/>
+        <File path="src/telemetry_bram.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/top_final.v" type="file.verilog" enable="1"/>
+        <File path="src/final.cst" type="file.cst" enable="1"/>
+        <File path="src/final.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

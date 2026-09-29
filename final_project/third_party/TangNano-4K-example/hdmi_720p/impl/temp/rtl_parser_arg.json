@@ -1,0 +1,61 @@
+{
+ "Device" : "GW1NSR-4C",
+ "Files" : [
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/gowin_clkdiv/gowin_clkdiv.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/gowin_pllvr/gowin_pllvr.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_defines.vh",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_enc.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_openldi.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_tcard.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_term.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_tmds.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_utils.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/hdmi/svo_vdma.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/svo_hdmi.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/src/top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/estudos/infnet/bloco8/pb/TangNano-4K-example-main/hdmi_720p/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

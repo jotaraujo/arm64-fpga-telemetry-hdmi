@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top_mac" Register="45" Alu="19" Lut="57" T_Register="143(45)" T_Alu="19(19)" T_Lut="249(57)" T_MULTADDALU18X18="1(0)">
+ <SubModule name="u_por" Register="5" Lut="5" T_Register="5(5)" T_Lut="5(5)"/>
+ <SubModule name="s1" Register="2" T_Register="2(2)"/>
+ <SubModule name="s2" Register="2" T_Register="2(2)"/>
+ <SubModule name="db1" Register="23" Lut="44" T_Register="23(23)" T_Lut="44(44)"/>
+ <SubModule name="db2" Register="23" Lut="43" T_Register="23(23)" T_Lut="43(43)"/>
+ <SubModule name="u_ctrl" Register="10" Lut="13" T_Register="10(10)" T_Lut="13(13)"/>
+ <SubModule name="u_coeff" Lut="52" T_Lut="52(52)"/>
+ <SubModule name="u_mac" Register="33" Lut="35" MULTADDALU18X18="1" T_Register="33(33)" T_Lut="35(35)" T_MULTADDALU18X18="1(1)"/>
+</Module>

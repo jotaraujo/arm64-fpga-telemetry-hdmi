@@ -1,0 +1,105 @@
+{
+ "Device" : "GW1NSR-4C",
+ "Files" : [
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/button_commands.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/command_executor.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/debounce_pulse.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/gowin_clkdiv/gowin_clkdiv.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/gowin_pllvr/gowin_pllvr.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_defines.vh",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_enc.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_openldi.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_tcard.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_term.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_tmds.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_vdma.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/led_status.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/mac_unit.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/pattern_stream.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/reset_sync.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/svo_hdmi.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/svo_hdmi_final.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/sync2ff.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/telemetry_bram.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/impl/temp/rtl_parser.result",
+ "Top" : "top_final",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

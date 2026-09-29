@@ -1,0 +1,366 @@
+[
+ {
+  "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_openldi.v",
+  "InstLine" : 23,
+  "InstName" : "svo_openldi",
+  "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_openldi.v",
+  "ModuleLine" : 23,
+  "ModuleName" : "svo_openldi"
+ },
+ {
+  "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_term.v",
+  "InstLine" : 23,
+  "InstName" : "svo_term",
+  "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_term.v",
+  "ModuleLine" : 23,
+  "ModuleName" : "svo_term"
+ },
+ {
+  "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+  "InstLine" : 178,
+  "InstName" : "svo_dim",
+  "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+  "ModuleLine" : 178,
+  "ModuleName" : "svo_dim",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+    "InstLine" : 219,
+    "InstName" : "svo_axis_pipe",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+    "ModuleLine" : 31,
+    "ModuleName" : "svo_axis_pipe"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+  "InstLine" : 250,
+  "InstName" : "svo_overlay",
+  "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+  "ModuleLine" : 250,
+  "ModuleName" : "svo_overlay",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+    "InstLine" : 307,
+    "InstName" : "svo_buf_in",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+    "ModuleLine" : 101,
+    "ModuleName" : "svo_buf",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+      "InstLine" : 145,
+      "InstName" : "svo_axis_pipe",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+      "ModuleLine" : 31,
+      "ModuleName" : "svo_axis_pipe"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+    "InstLine" : 321,
+    "InstName" : "svo_buf_over",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+    "ModuleLine" : 101,
+    "ModuleName" : "svo_buf",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+      "InstLine" : 145,
+      "InstName" : "svo_axis_pipe",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+      "ModuleLine" : 31,
+      "ModuleName" : "svo_axis_pipe"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+    "InstLine" : 335,
+    "InstName" : "svo_buf_out",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+    "ModuleLine" : 101,
+    "ModuleName" : "svo_buf",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+      "InstLine" : 145,
+      "InstName" : "svo_axis_pipe",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+      "ModuleLine" : 31,
+      "ModuleName" : "svo_axis_pipe"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+  "InstLine" : 359,
+  "InstName" : "svo_rect",
+  "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_utils.v",
+  "ModuleLine" : 359,
+  "ModuleName" : "svo_rect"
+ },
+ {
+  "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_vdma.v",
+  "InstLine" : 23,
+  "InstName" : "svo_vdma",
+  "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_vdma.v",
+  "ModuleLine" : 23,
+  "ModuleName" : "svo_vdma",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_vdma.v",
+    "InstLine" : 255,
+    "InstName" : "fifo",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_vdma.v",
+    "ModuleLine" : 344,
+    "ModuleName" : "svo_vdma_crossclock_fifo"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top.v",
+    "InstLine" : 11,
+    "InstName" : "u_div_5",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top.v",
+    "InstLine" : 17,
+    "InstName" : "Gowin_PLLVR_inst",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/gowin_pllvr/gowin_pllvr.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_PLLVR"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top.v",
+    "InstLine" : 23,
+    "InstName" : "u_Reset_Sync",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top.v",
+    "ModuleLine" : 47,
+    "ModuleName" : "Reset_Sync"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top.v",
+    "InstLine" : 29,
+    "InstName" : "svo_hdmi_inst",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/svo_hdmi.v",
+    "ModuleLine" : 23,
+    "ModuleName" : "svo_hdmi",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/svo_hdmi.v",
+      "InstLine" : 75,
+      "InstName" : "svo_tcard",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_tcard.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_tcard"
+     },
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/svo_hdmi.v",
+      "InstLine" : 85,
+      "InstName" : "svo_enc",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_enc.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_enc"
+     },
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/svo_hdmi.v",
+      "InstLine" : 102,
+      "InstName" : "svo_tmds_0",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_tmds.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_tmds"
+     },
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/svo_hdmi.v",
+      "InstLine" : 112,
+      "InstName" : "svo_tmds_1",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_tmds.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_tmds"
+     },
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/svo_hdmi.v",
+      "InstLine" : 122,
+      "InstName" : "svo_tmds_2",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_tmds.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_tmds"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
+  "InstLine" : 1,
+  "InstName" : "top_final",
+  "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top_final",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
+    "InstLine" : 16,
+    "InstName" : "pll",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/gowin_pllvr/gowin_pllvr.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_PLLVR"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
+    "InstLine" : 22,
+    "InstName" : "divider",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
+    "InstLine" : 28,
+    "InstName" : "reset_release",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/reset_sync.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "reset_sync"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
+    "InstLine" : 41,
+    "InstName" : "key1_synchronizer",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/sync2ff.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "sync2ff"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
+    "InstLine" : 45,
+    "InstName" : "key2_synchronizer",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/sync2ff.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "sync2ff"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
+    "InstLine" : 49,
+    "InstName" : "key1_debounce",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/debounce_pulse.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "debounce_pulse"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
+    "InstLine" : 54,
+    "InstName" : "key2_debounce",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/debounce_pulse.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "debounce_pulse"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
+    "InstLine" : 64,
+    "InstName" : "local_commands",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/button_commands.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "button_commands"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
+    "InstLine" : 83,
+    "InstName" : "executor",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/command_executor.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "command_executor"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
+    "InstLine" : 98,
+    "InstName" : "mac",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/mac_unit.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "mac_unit"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
+    "InstLine" : 121,
+    "InstName" : "telemetry",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/telemetry_bram.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "telemetry_bram"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
+    "InstLine" : 131,
+    "InstName" : "status_indicator",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/led_status.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "led_status"
+   },
+   {
+    "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
+    "InstLine" : 143,
+    "InstName" : "video",
+    "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/svo_hdmi_final.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "svo_hdmi_final",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/svo_hdmi_final.v",
+      "InstLine" : 55,
+      "InstName" : "pattern_source",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/pattern_stream.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "pattern_stream"
+     },
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/svo_hdmi_final.v",
+      "InstLine" : 70,
+      "InstName" : "encoder",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_enc.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_enc"
+     },
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/svo_hdmi_final.v",
+      "InstLine" : 84,
+      "InstName" : "tmds_channel_0",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_tmds.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_tmds"
+     },
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/svo_hdmi_final.v",
+      "InstLine" : 92,
+      "InstName" : "tmds_channel_1",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_tmds.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_tmds"
+     },
+     {
+      "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/svo_hdmi_final.v",
+      "InstLine" : 100,
+      "InstName" : "tmds_channel_2",
+      "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/hdmi/svo_tmds.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_tmds"
+     }
+    ]
+   }
+  ]
+ }
+]

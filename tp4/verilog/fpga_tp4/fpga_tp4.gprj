@@ -1,0 +1,20 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NSR-4C" pn="GW1NSR-LV4CQN48PC6/I5">gw1nsr4c-000</Device>
+    <FileList>
+        <File path="src/coeff_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/debounce.v" type="file.verilog" enable="1"/>
+        <File path="src/mac_control.v" type="file.verilog" enable="1"/>
+        <File path="src/mac_unit.v" type="file.verilog" enable="1"/>
+        <File path="src/por_reset.v" type="file.verilog" enable="1"/>
+        <File path="src/sample_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/sync2ff.v" type="file.verilog" enable="1"/>
+        <File path="src/tb_mac_unit.v" type="file.verilog" enable="1"/>
+        <File path="src/tb_top_mac.v" type="file.verilog" enable="1"/>
+        <File path="src/top_mac.v" type="file.verilog" enable="1"/>
+        <File path="src/pins_mac.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
