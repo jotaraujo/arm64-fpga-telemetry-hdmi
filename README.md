@@ -1,4 +1,5 @@
-# ARM64 + FPGA — Sistemas Digitais Embarcados
+# Plataforma de Processamento e Telemetria ARM64–FPGA
+
 
 Repositório acadêmico desenvolvido ao longo do Projeto de Bloco de **Sistemas Digitais Embarcados**, reunindo a evolução de cinco TPs e um projeto final integrado envolvendo:
 
