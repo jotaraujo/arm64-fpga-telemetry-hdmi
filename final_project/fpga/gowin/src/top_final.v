@@ -124,7 +124,6 @@ module top_final (
     .read_addr(telemetry_read_addr), .read_data(telemetry_read_data)
   );
 
-  // O LED onboard agora e o unico indicador luminoso do sistema.
   // 1 piscada curta = comando aceito.
   // 2 piscadas = erro de comando/protocolo.
   // Piscada rapida continua = erro grave (MAC overflow) ate CLEAR.

@@ -305,7 +305,7 @@
    },
    {
     "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
-    "InstLine" : 131,
+    "InstLine" : 130,
     "InstName" : "status_indicator",
     "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/led_status.v",
     "ModuleLine" : 3,
@@ -313,7 +313,7 @@
    },
    {
     "InstFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/top_final.v",
-    "InstLine" : 143,
+    "InstLine" : 142,
     "InstName" : "video",
     "ModuleFile" : "D:/estudos/infnet/bloco8/pb/vga-framebuffer-arm-fpga/final_project/fpga/gowin/src/svo_hdmi_final.v",
     "ModuleLine" : 8,

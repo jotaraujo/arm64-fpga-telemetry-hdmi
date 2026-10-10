@@ -1,2 +1,0 @@
-IO_LOC "led_pin" 10;
-IO_PORT "led_pin" IO_TYPE=LVCMOS33 DRIVE=8 BANK_VCCIO=3.3;

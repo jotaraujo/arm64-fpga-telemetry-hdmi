@@ -19,6 +19,26 @@ all: mac status video protocol
 build:
 >mkdir -p build
 
+.PHONY: all mac status video protocol random clean
+random: build
+>@test -f random_packets.hex && test -f random_expected.hex || (echo "Gere os pacotes com Python primeiro"; exit 1)
+>$(IVERILOG) $(FLAGS) -o build/tb_random_protocol.vvp $(RTL) tb_random_protocol.v
+>$(VVP) build/tb_random_protocol.vvp
+
+.PHONY: all mac status video protocol random crc-stress clean
+crc-stress: build
+>@test -f crc_stress_packets.hex && test -f crc_stress_expected.hex || (echo "Gere os testes CRC com Python primeiro"; exit 1)
+>$(IVERILOG) $(FLAGS) -o build/tb_crc_stress.vvp $(RTL) tb_crc_stress.v
+>$(VVP) build/tb_crc_stress.vvp
+
+uart-stress: build
+>$(IVERILOG) $(FLAGS) -o build/tb_uart_stress.vvp ../rtl/control/uart_rx.v tb_uart_stress.v
+>$(VVP) build/tb_uart_stress.vvp
+
+packet-recovery: build
+>$(IVERILOG) $(FLAGS) -o build/tb_packet_recovery.vvp $(RTL) tb_packet_recovery.v
+>$(VVP) build/tb_packet_recovery.vvp
+
 mac: build
 >$(IVERILOG) $(FLAGS) -o build/tb_mac_unit.vvp ../rtl/dsp/mac_unit.v tb_mac_unit.v
 >$(VVP) build/tb_mac_unit.vvp

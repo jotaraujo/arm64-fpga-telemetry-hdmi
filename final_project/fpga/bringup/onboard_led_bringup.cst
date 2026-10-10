@@ -1,9 +1,0 @@
-# ============================================================
-# Tang Nano 4K - Bring-up do LED onboard
-# ============================================================
-
-# LED onboard
-# Pino físico 10
-# Banco alimentado em 3,3 V
-IO_LOC "led_pin" 10;
-IO_PORT "led_pin" IO_TYPE=LVCMOS33 DRIVE=8 BANK_VCCIO=3.3;

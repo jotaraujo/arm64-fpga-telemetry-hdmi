@@ -36,13 +36,29 @@ module protocol_system #(
   wire [15:0] response_error_count;
   wire parser_error_pulse;
 
-  packet_parser parser (
-    .clk(clk), .rst_n(rst_n), .byte_valid(rx_byte_valid), .byte_data(rx_byte),
-    .cmd_valid(cmd_valid), .cmd_seq(cmd_seq), .cmd_id(cmd_id),
-    .cmd_length(cmd_length), .cmd_payload(cmd_payload),
-    .response_valid(parser_response_valid), .response_seq(response_seq),
-    .response_status(response_status), .response_error_count(response_error_count),
-    .error_pulse(parser_error_pulse), .error_count(error_count)
+  packet_parser #(
+    .PACKET_TIMEOUT_CYCLES(CLKS_PER_BIT * 40)
+  ) parser (
+    .clk(clk),
+    .rst_n(rst_n),
+
+    .byte_valid(rx_byte_valid),
+    .byte_data(rx_byte),
+    .framing_error(framing_error),
+
+    .cmd_valid(cmd_valid),
+    .cmd_seq(cmd_seq),
+    .cmd_id(cmd_id),
+    .cmd_length(cmd_length),
+    .cmd_payload(cmd_payload),
+
+    .response_valid(parser_response_valid),
+    .response_seq(response_seq),
+    .response_status(response_status),
+    .response_error_count(response_error_count),
+
+    .error_pulse(parser_error_pulse),
+    .error_count(error_count)
   );
 
   wire cmd_ready;
