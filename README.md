@@ -1,4 +1,5 @@
-# ARM64 + FPGA — Sistemas Digitais Embarcados
+# Sistema Embarcado ARM64–FPGA com Processamento MAC, Telemetria e HDMI
+
 
 Repositório acadêmico desenvolvido ao longo do Projeto de Bloco de **Sistemas Digitais Embarcados**, reunindo a evolução de cinco TPs e um projeto final integrado envolvendo:
 
